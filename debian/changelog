@@ -1,0 +1,44 @@
+cli-installer-mx (0.1.5) unstable; urgency=low 
+ 
+  * Added Japanese translation.
+  * Updated German, Dutch, Swedish, Catalan, Spanish
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 14 Jun 2014 11:50:00 +0200
+
+
+cli-installer-mx (0.1.4) unstable; urgency=low 
+ 
+  * Remove whole Desktop directory, not just the file.
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 14 Mar 2014 18:40:00 +0200
+
+
+cli-installer-mx (0.1.3) unstable; urgency=low 
+ 
+  * Removed rc.local.live since what was in there now happens in the gui/cli installer.
+  * cli-installer edited to allow for uuid.
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 27 Feb 2014 17:50:00 +0200
+
+
+cli-installer-mx (0.1.2) unstable; urgency=low 
+ 
+  * Edited rc.local.live to set up swap on install.
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 09 Feb 2014 17:00:00 +0200
+
+
+cli-installer-mx (0.1.1) unstable; urgency=low 
+ 
+  * Removed buildfstab from rc.local.live.
+  * Added rm -r /mnt/antiX to rc.local.live.
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 08 Feb 2014 23:35:00 +0200
+
+
+cli-installer-mx (0.1.0) unstable; urgency=low 
+ 
+  * Initial Release.
+
+ -- anticapitalista <antiX@operamail.com>  Mon, 13 Jan 2014 22:30:00 +0200
+

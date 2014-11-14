@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # cli-installer for MX-14
 # written by Burt Holland
-# edited by anticapitalista
+# heavily edited by anticapitalista
 
 TEXTDOMAINDIR=/usr/share/locale
 TEXTDOMAIN=cli-installer
@@ -27,7 +27,7 @@ LIVEUSER=demo
 title() {
 echo -ne "\e[32m"
 echo $"CL installer for $DISTRO"
-echo $"Version 2.9.1 2014/01/12"
+echo $"Version 2.9.2 2014/02/27"
 echo -ne "\e[0m"
 echo ''
 }
@@ -220,7 +220,7 @@ fi
 # Make sure /live/aufs/dev, /live/aufs/sys, /live/aufs/proc exist when starting script
 mkdir -p /live/aufs/dev /live/aufs/sys /live/aufs/proc
 # Make sure fstab is ok and start swap - (needed for antixsnapshot)
-buildfstab -r
+make-fstab 
 swapon -a
 # Show requirements
 kernel="-$(uname -r)"
@@ -316,6 +316,9 @@ mount -t proc --bind /proc/ /media/$rdrv/proc/
 mount -t sysfs --bind /sys/ /media/$rdrv/sys/ 
 chroot /media/$rdrv grub-install $grub > /dev/null  2>&1 
 chroot /media/$rdrv update-grub $grub > /dev/null  2>&1
+chroot /media/$rdrv dev2uuid_fstab > /dev/null  2>&1
+chroot /media/$rdrv sed -i -e "/Dynamic/d" /etc/fstab > /dev/null  2>&1
+chroot /media/$rdrv sed -i -e "/live/d" /etc/fstab > /dev/null  2>&1
 echo $"GRUB installed on ($grub)"
 echo ''
 chroot /media/$rdrv userdel $LIVEUSER
@@ -375,11 +378,8 @@ sleep 1
 yn $"Is this a remastered/snapshot install (y/N)"
 if [[ $ans -eq 1 ]]
   then
-  # Write code to get buildfstab -r to start on first boot via rc.local (if user wants it?)
-  mv etc/rc.local etc/rc.local2
-  cp usr/share/antiX/rc.local.live etc/rc.local
   # (also)Remove live system if it exists
-  chroot /media/$rdrv dpkg -r live-init-antix 2>/dev/null
+  chroot /media/$rdrv dpkg -r live-init-mx 2>/dev/null
   rm /media/$hdrv/$LIVEUSER 
   umount -l /media/$rdrv
   umount -l /dev/$hdrv
@@ -427,11 +427,9 @@ echo $"Cleaning up"
 rm etc/passwd.old
 rm etc/group.bak
 rm etc/gshadow.bak
-rm etc/skel/Desktop/Installer.desktop
+rm -rf etc/skel/Desktop
 rm etc/skel/.config/xfce4/desktop/icons.screen0-958x752.rc 
-mv etc/rc.local etc/rc.local2 
 mv etc/X11/xorg.conf etc/X11/xorg.conf.live 2>/dev/null
-cp usr/share/antiX/rc.local.live etc/rc.local
 cp etc/init.d/debian/cron etc/init.d/cron
 cp etc/init.d/debian/gpm etc/init.d/gpm
 cp etc/init.d/debian/umountfs etc/init.d/umountfs
@@ -441,6 +439,7 @@ cp usr/share/antix-install/issue etc/issue
 
 cp -r etc/skel/.[a-zA-Z]* home/*/ 2>/dev/null
 cp -r etc/skel/* home/*/ 2>/dev/null
+
 if [[ $hmtp -gt 0 ]]
   then
     if [[ $hmtp -eq 2 ]]
@@ -450,13 +449,18 @@ if [[ $hmtp -gt 0 ]]
   mkdir home
   cp -r /media/$rdrv/etc/skel/.[a-zA-Z]* /media/$hdrv/*/ 2>/dev/null
   cp -r /media/$rdrv/etc/skel/* /media/$hdrv/*/ 2>/dev/null
-  chown -R $LIVEUSER.users /media/$hdrv/* 2>/dev/null
+  rm -rf /media/$hdrv/*/Desktop
+  rm /media/$hdrv/*/.config/xfce4/desktop/icons.screen0-958x752.rc 
+  chown -R $LIVEUSER.$LIVEUSER /media/$hdrv/* 2>/dev/null
 fi
-chown -R $LIVEUSER.users home/* 2>/dev/null
+chown -R $LIVEUSER.$LIVEUSER home/* 2>/dev/null
 # Remove live system
-chroot /media/$rdrv dpkg --purge live-init-antix 2>/dev/null
+chroot /media/$rdrv dpkg --purge live-init-mx 2>/dev/null
 rm -rf media/sd*
 rm -rf media/hd*
+rm -rf home/*/Desktop 
+rm -rf home/*/.config/xfce4/desktop/icons.screen0-958x752.rc
+rmdir live
 umount -l /media/$rdrv/dev/
 umount -l /media/$rdrv/proc/
 umount -l /media/$rdrv/sys/
