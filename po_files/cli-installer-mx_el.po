@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # anticapitalista <antiX@operamail.com>, 2014
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-03-15 11:30+0000\n"
+"PO-Revision-Date: 2014-11-14 17:45+0200\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/antix-development/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/antix-development/"
+"language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
@@ -40,7 +41,8 @@ msgstr "Χρήση: cli-installer [drive]"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr "Όπου 'drive' είναι το όνομα του drive όπου θα εγκατασταθεί το $DISTRO ."
+msgstr ""
+"Όπου 'drive' είναι το όνομα του drive όπου θα εγκατασταθεί το $DISTRO ."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
@@ -60,7 +62,8 @@ msgstr "Ορίστε την γλώσσα από την οθόνη εκκίνησ
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "ή προσθέτοντας την γραμμή lang=xx όπου xx είναι ο κωδικός της γλώσσας σας."
+msgstr ""
+"ή προσθέτοντας την γραμμή lang=xx όπου xx είναι ο κωδικός της γλώσσας σας."
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
@@ -73,7 +76,9 @@ msgstr "Ορίστε την ζώνη ώρας στην οθόνη εκκίνησ
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
-msgstr "Πατήστε F1 κατά την οθόνη εκκίνησης για Βοήθεια και μία λίστα με κωδικούς για κολπάκια (cheatcodes) για live χρήση."
+msgstr ""
+"Πατήστε F1 κατά την οθόνη εκκίνησης για Βοήθεια και μία λίστα με κωδικούς "
+"για κολπάκια (cheatcodes) για live χρήση."
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
@@ -101,7 +106,7 @@ msgstr "Εισάγετε την επιλογή σας 1-7:"
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
-msgstr ""
+msgstr "Έχετε επιλέξει $fs για $1"
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
@@ -129,7 +134,7 @@ msgstr "Παρακαλώ τρέξτε αυτό το script ως Root."
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Θέλετε να επανακατατμήσετε τον δίσκο (Ναι/Όχι)"
+msgstr "Θέλετε να επανακατατμήσετε τον δίσκο (ναι/Όχι)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
@@ -141,15 +146,15 @@ msgstr "Αυτό μπορεί να πάρει αρκετό χρόνο. Παρα�
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Χρησιμοποιείστε μία χωριστή κατάτμηση χρήστη '/home' (Ναι/Όχι)"
+msgstr "Χρησιμοποιείστε μία χωριστή κατάτμηση χρήστη '/home' (ναι/Όχι)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "Το $hdrv είναι μία νέα κατάτμηση '/home' (Ναι/Όχι)"
+msgstr "Το $hdrv είναι μία νέα κατάτμηση '/home' (ναι/Όχι)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
-msgstr ""
+msgstr "Ρυθμίστε το σύστημα αρχείων για $hdrv (ναι/Οχι)"
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
@@ -162,6 +167,8 @@ msgstr "Η αντιγραφή αρχείων ολοκληρώθηκε"
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
 msgstr ""
+"Εγκαταστήστε το GRUB στο MBR (Ναι/οχι). το ΟΧΙ θα εγκαταστήσει στην "
+"κατάτμηση root"
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
@@ -173,15 +180,15 @@ msgstr "Όνομα υπολογιστή (η προεπιλογή είναι \"mx
 
 #: cli-installer:334
 msgid "Time to set up localisation"
-msgstr ""
+msgstr "Ώρα να συσταθεί εντοπισμού "
 
 #: cli-installer:335
 msgid "System locale is set to ..."
-msgstr ""
+msgstr "Η Τοπική ρύθμιση συστήματος έχει οριστεί σε ..."
 
 #: cli-installer:336
 msgid "Do you want to set up system localisation (y/N)"
-msgstr ""
+msgstr "Θέλετε να δημιουργηθεί σύστημα εντοπισμού "
 
 #: cli-installer:343
 msgid "Time to set keyboard layout"
@@ -189,47 +196,48 @@ msgstr "Ρύθμιση Γλώσσας"
 
 #: cli-installer:344
 msgid "System keyboard is set to ..."
-msgstr ""
+msgstr "Το Πληκτρολόγιο του συστήματος έχει οριστεί σε ..."
 
 #: cli-installer:346
 msgid "Do you want to set up keyboard (y/N)"
-msgstr ""
+msgstr "Θέλετε να ρυθμίσετε το πληκτρολόγιο "
 
 #: cli-installer:352
 msgid "Time to set console layout"
-msgstr ""
+msgstr "Ώρα να ορίσετε τη διάταξη της κονσόλας "
 
 #: cli-installer:353
 msgid "System console is set to ..."
-msgstr ""
+msgstr "Η Κονσόλα του συστήματος έχει οριστεί σε ..."
 
 #: cli-installer:355
 msgid "Do you want to set up console layout (y/N)"
-msgstr ""
+msgstr "Θέλετε να συσταθεί διάταξη κονσόλα (ναι/Όχι)"
 
 #: cli-installer:361
 msgid "Time to set timezone"
-msgstr ""
+msgstr "Ώρα να ρυθμίσετε τη ζώνη ώρας "
 
 #: cli-installer:362
 msgid "System timezone is set to ..."
-msgstr ""
+msgstr "Ζώνη ώρας του συστήματος έχει οριστεί σε ... "
 
 #: cli-installer:364
 msgid "Do you want to set up system timezone (y/N)"
-msgstr ""
+msgstr "Θέλετε να ρυθμίσετε τη ζώνη ώρας του συστήματος (ναι/Όχι)"
 
 #: cli-installer:370
 msgid "Choose which services to run"
-msgstr ""
+msgstr "Επιλέξτε ποιες υπηρεσίες να τρέξει "
 
 #: cli-installer:371
 msgid "Do you want to enable/disable startup services (y/N)"
 msgstr ""
+"Θέλετε να ενεργοποιήσετε / απενεργοποιήσετε τις υπηρεσίες εκκίνησης (ναι/Όχι)"
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Είναι αυτό ένα remastered/snapshot εγκατάσταση (ν/Ο)"
+msgstr "Είναι αυτό ένα remastered/snapshot εγκατάσταση (ναι/Οχι)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
@@ -237,19 +245,22 @@ msgstr "Η εγκατάσταση του $DISTRO τελείωσε!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr "Επανεκκινείστε τον υπολογιστή χωρίς το CD για να αρχίσει το πρόγραμμα. ('επανεκκίνηση')"
+msgstr ""
+"Επανεκκινείστε τον υπολογιστή χωρίς το CD για να αρχίσει το πρόγραμμα. "
+"('επανεκκίνηση')"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
-msgstr ""
+msgstr "Ρύθμιση  λογαριασμούς χρήστης και διαχειριστής"
 
 #: cli-installer:396
 msgid "Type in your default user name? "
-msgstr ""
+msgstr "Πληκτρολογήστε το προεπιλεγμένο όνομα χρήστη σας; "
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Σημείωση: Το $hdrv πρέπει να περιέχει έναν φάκελλο που ονομάζεται '$name'."
+msgstr ""
+"Σημείωση: Το $hdrv πρέπει να περιέχει έναν φάκελλο που ονομάζεται '$name'."
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
@@ -261,7 +272,7 @@ msgstr "Κωδικός πρόσβασης root:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
-msgstr ""
+msgstr "Ορισμός autologin για $name: (ναι/Οχι)"
 
 #: cli-installer:426
 msgid "Cleaning up"

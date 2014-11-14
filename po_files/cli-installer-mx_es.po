@@ -1,268 +1,272 @@
-# 
+#
 # Translators:
-# anticapitalista <antiX@operamail.com>, 2014
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
+# Roberto Saravia <jratlsv2@racsa.co.cr>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-03-15 11:50+0000\n"
+"PO-Revision-Date: 2014-11-14 17:46+0200\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/antix-development/language/cs/)\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/antix-"
+"development/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
 msgid "CL installer for $DISTRO"
-msgstr "Instalátor CL pro $DISTRO"
+msgstr "Instalador CL para $DISTRO"
 
 #: cli-installer:30
 msgid "Version 2.9.2 2014/02/27"
-msgstr "Verze 2.9.2 2014/02/27"
+msgstr "Versión 2.9.2 2014/02/27"
 
 #: cli-installer:37
 msgid "Requirements for minimum installation:"
-msgstr "Požadavky pro minimální instalaci:"
+msgstr "Requisitos para la instalación mínima:"
 
 #: cli-installer:40
 msgid "MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
-msgstr ""
+msgstr "MX-14-Xfce: disco duro 3.5GB  RAM 192MB"
 
 #: cli-installer:45
 msgid "Usage: cli-installer [drive]"
-msgstr "Použití: cli-installer [disk]"
+msgstr "Uso: cli-installer [drive]"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr "Kde disk je název disku, na který bude nainstalován $DISTRO"
+msgstr "Donde medio es el nombre del medio en el que se instalará $DISTRO."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
-msgstr "   Například: cli-installer sdb"
+msgstr "   Por ejemplo: cli-installer sdb"
 
 #: cli-installer:48
 msgid "The default is correct if the computer has only one drive."
-msgstr "Výchozí je správné, pokud má počítač pouze jeden disk."
+msgstr ""
+"Los valores por defecto son correctos si la computadora tiene sólo un disco."
 
 #: cli-installer:52
 msgid "Pre-installation tips:"
-msgstr "Rady před instalací:"
+msgstr "Tips de pre-instalación:"
 
 #: cli-installer:55
 msgid "Set language at the boot screen by pressing F2"
-msgstr "Jazyk nastavíte v obrazovce zavádění stisknutím F2"
+msgstr "Seleccione el lenguaje en la pantalla de arranque presionando F2"
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "nebo přidáním řádku lang=xx kde xx je Váš kód jazyka."
+msgstr "o agregando la línea lang=xx donde xx es el código de su lenguaje"
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
-msgstr "např. lang=gr pro řečtinu."
+msgstr "ejemplo lang=gr para griego"
 
 #: cli-installer:59
 msgid "Set timezone at the boot screen by pressing F3"
-msgstr "Časovou zónu nastavíte v obrazovce zavádění stisknutím F3"
+msgstr "Seleccione la zona temporal en la pantalla de inicio presionando F3"
 
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
-msgstr "Stiskněte F1 v obrazovce zavádění pro nápovědu a seznam čítů pro normální provoz."
+msgstr ""
+"Presione F1 en la pantalla de inicio para Ayuda y una lista de cheatcodes "
+"para el uso en la sesión live."
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
-msgstr "oddíl /home (hda1, sda2, etc): "
+msgstr "/home partición (hda1, sda2, etc): "
 
 #: cli-installer:72
 msgid "$hdrv invalid. Retry:"
-msgstr "$hdrv je neplatné. Zkuste znovu:"
+msgstr "$hdrv inválido(a). Intente de nuevo."
 
 #: cli-installer:82
 msgid "Root partition (hda1, sda2, etc): "
-msgstr "Odííl root (hda1, sda2, etc): "
+msgstr "Partición Root (hda1, sda2, etc): "
 
 #: cli-installer:111
 msgid "$rdrv invalid. Retry"
-msgstr "$rdrv je neplatné. Zkuste znovu"
+msgstr "$rdrv inválido(a). Intente de nuevo."
 
 #: cli-installer:126
 msgid "Available file systems for $1 are:"
-msgstr "Dostupné souborové systémy pro $1 jsou"
+msgstr "Los sistemas de archivos disponibles para $1 son:"
 
 #: cli-installer:139
 msgid "Enter your choice 1-7: "
-msgstr ""
+msgstr "Ingrese su elección 1-7: "
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
-msgstr ""
+msgstr "Escogió $fs para $1"
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
-msgstr "Ignorovat všechny 'barierové' řádky"
+msgstr "Ignorar las líneas de 'barrera'"
 
 #: cli-installer:157
 msgid "$fs invalid. Retry:"
-msgstr "$fs je neplatné. Zkuste znovu:"
+msgstr "$fs inválido(a). Intente de nuevo."
 
 #: cli-installer:170
 msgid "Passwords are not identical. Retry:"
-msgstr "Hesla se neshodují. Zkuste znovu:"
+msgstr "Las contraseñas no coinciden. Intente de nuevo:"
 
 #: cli-installer:190
 msgid "Invalid; retry:"
-msgstr "Neplatné; Zkuste znovu:"
+msgstr "inválido(a). Intente de nuevo."
 
 #: cli-installer:207
 msgid "Press Enter to exit this script."
-msgstr "Stiskněte Enter pro ukončení skriptu."
+msgstr "Presione ENTRADA para salir de este script"
 
 #: cli-installer:215
 msgid "Please run this script as root."
-msgstr "Tento skript spusťte, prosím, jako root."
+msgstr "Por favor ejecute este script como root"
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Chcete disk znovu rozdělit disk (y/N)"
+msgstr "¿Desea reparticionar el disco? (s/N)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
-msgstr ""
+msgstr "Borrando el contenido de la partición $rdrv ."
 
 #: cli-installer:245
 msgid "This may take some time. Please wait...."
-msgstr "Toto může chváli trvat. Čekejte prosím..."
+msgstr "Esta operación puede tomar algún tiempo. Espere por favor...."
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Použít oddělený oddíl '/home'? (y/N)"
+msgstr "¿Usar una partición \\\"/home\\\" separada? (s/N)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "je $hdrv nový oddíl '/home'? (y/N)"
+msgstr "Es $hdrv una partición \\\"/home\\\" nueva? (s/N)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
-msgstr ""
+msgstr "Configurar el sistema de archivos para $hdrv  (s/N)"
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
-msgstr ""
+msgstr "MX-14 se copiará en $rdrv."
 
 #: cli-installer:304
 msgid "File copy done"
-msgstr "Kopírování souboru dokončeno"
+msgstr "Copiado de archivos completo."
 
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
-msgstr ""
+msgstr "¿Instalar GRUB en MBR (s/n). No lo instalará en la partición root"
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
-msgstr "GRUB nainstalován na ($grub)"
+msgstr "GRUB instalado en ($grub)"
 
 #: cli-installer:326
 msgid "Computer name (default is 'mx1')? "
-msgstr "Jméno počítače (výchozí je 'mx1')? "
+msgstr "¿Nombre del equipo (por defecto es 'mx1')? "
 
 #: cli-installer:334
 msgid "Time to set up localisation"
-msgstr ""
+msgstr "Es hora de ajustar la localización"
 
 #: cli-installer:335
 msgid "System locale is set to ..."
-msgstr ""
+msgstr "El sistema local se ha ajustado a ..."
 
 #: cli-installer:336
 msgid "Do you want to set up system localisation (y/N)"
-msgstr ""
+msgstr "¿Desea ajustar la localización de su sistema? (s/N)"
 
 #: cli-installer:343
 msgid "Time to set keyboard layout"
-msgstr ""
+msgstr "Es hora de ajustar la disposición del teclado"
 
 #: cli-installer:344
 msgid "System keyboard is set to ..."
-msgstr ""
+msgstr "El teclado se ha ajustado a ..."
 
 #: cli-installer:346
 msgid "Do you want to set up keyboard (y/N)"
-msgstr ""
+msgstr "¿Desea ajustar el teclado? (s/N)"
 
 #: cli-installer:352
 msgid "Time to set console layout"
-msgstr ""
+msgstr "Es hora de ajustar la disposición de la consola"
 
 #: cli-installer:353
 msgid "System console is set to ..."
-msgstr ""
+msgstr "La consola del sistema se ajustó a ..."
 
 #: cli-installer:355
 msgid "Do you want to set up console layout (y/N)"
-msgstr ""
+msgstr "¿Desea ajustar la disposición de la consola? (s/N)"
 
 #: cli-installer:361
 msgid "Time to set timezone"
-msgstr ""
+msgstr "Es hora de ajustar la zona horaria"
 
 #: cli-installer:362
 msgid "System timezone is set to ..."
-msgstr ""
+msgstr "La zona horaria del sistema se ajustó a ..."
 
 #: cli-installer:364
 msgid "Do you want to set up system timezone (y/N)"
-msgstr ""
+msgstr "¿Desea ajustar la zona horaria de su sistema? (s/N)"
 
 #: cli-installer:370
 msgid "Choose which services to run"
-msgstr ""
+msgstr "Escoja los servicios a ejecutar"
 
 #: cli-installer:371
 msgid "Do you want to enable/disable startup services (y/N)"
-msgstr ""
+msgstr "¿Desea habilitar/inhabilitar los servicios al inicio? (s/N)"
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Je toto upravená instalace (y/N)"
+msgstr "¿Es esta una instalación de una imagen o remasterización? (s/N)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
-msgstr "Instalace $DISTRO dokončena!"
+msgstr "¡La instalación de $DISTRO ha terminado!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr "Restartujte počítač bez CD pro spuštění počítače. ('reboot')"
+msgstr "Reinicia la computadora sin el CD para iniciar el programa. ('reboot')"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
-msgstr ""
+msgstr "Ajustando las cuentas de root/admin y de usuario"
 
 #: cli-installer:396
 msgid "Type in your default user name? "
-msgstr ""
+msgstr "Ingrese el nombre del usuario por defecto"
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Poznámka: $hdrv musí obsahovat složku s názvem '$name'."
+msgstr "Nota: $hdrv debe contener una carpeta llamada \\\"$nombre"
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
-msgstr "Heslo pro $name:"
+msgstr "Ingrese su contraseña para $name:"
 
 #: cli-installer:407
 msgid "Type your Password for root:"
-msgstr "Heslo pro root:"
+msgstr "Ingrese su contraseña para root:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
-msgstr ""
+msgstr "¿Ajustar ingreso automático para $name: (s/N)?"
 
 #: cli-installer:426
 msgid "Cleaning up"
-msgstr "Čištění"
+msgstr "Realizando limpieza"
