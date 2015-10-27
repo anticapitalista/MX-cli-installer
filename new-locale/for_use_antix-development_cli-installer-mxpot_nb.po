@@ -1,35 +1,34 @@
-#
+# 
 # Translators:
 # anticapitalista <antiX@operamail.com>, 2014
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-11-14 17:45+0200\n"
+"PO-Revision-Date: 2014-03-15 12:00+0000\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/antix-development/"
-"language/cs/)\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/antix-development/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 1.6.10\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
 msgid "CL installer for $DISTRO"
-msgstr "Instalátor CL pro $DISTRO"
+msgstr "CL installerer for $DISTRO"
 
 #: cli-installer:30
 msgid "Version 2.9.2 2014/02/27"
-msgstr "Verze 2.9.2 2014/02/27"
+msgstr "Version 2.9.2 2014/02/27"
 
 #: cli-installer:37
 msgid "Requirements for minimum installation:"
-msgstr "Požadavky pro minimální instalaci:"
+msgstr "Krav for minimal instalasjon:"
 
 #: cli-installer:40
 msgid "MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
@@ -37,70 +36,68 @@ msgstr ""
 
 #: cli-installer:45
 msgid "Usage: cli-installer [drive]"
-msgstr "Použití: cli-installer [disk]"
+msgstr "Bruk: cli-installer"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr "Kde disk je název disku, na který bude nainstalován $DISTRO"
+msgstr "Hvor drive er navnet på harddisken/partisjonen $DISTRO skal instaleres på."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
-msgstr "   Například: cli-installer sdb"
+msgstr "   For eksempel: cli-installer sdb"
 
 #: cli-installer:48
 msgid "The default is correct if the computer has only one drive."
-msgstr "Výchozí je správné, pokud má počítač pouze jeden disk."
+msgstr "Standard er korrekt hvis datamaskinen kun har en harddisk."
 
 #: cli-installer:52
 msgid "Pre-installation tips:"
-msgstr "Rady před instalací:"
+msgstr "Tips før instalasjon:"
 
 #: cli-installer:55
 msgid "Set language at the boot screen by pressing F2"
-msgstr "Jazyk nastavíte v obrazovce zavádění stisknutím F2"
+msgstr "Velg språk ved oppstartskjermen ved å trykke F2"
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "nebo přidáním řádku lang=xx kde xx je Váš kód jazyka."
+msgstr "eller ved å legge til: lang=xx hvor xx er din språkkode."
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
-msgstr "např. lang=gr pro řečtinu."
+msgstr "F.eks lang=no for Norsk."
 
 #: cli-installer:59
 msgid "Set timezone at the boot screen by pressing F3"
-msgstr "Časovou zónu nastavíte v obrazovce zavádění stisknutím F3"
+msgstr "juster tidssone ved oppstartskjermen ved å trykke F3"
 
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
-msgstr ""
-"Stiskněte F1 v obrazovce zavádění pro nápovědu a seznam čítů pro normální "
-"provoz."
+msgstr "Trykk F1 ved oppstart skjermen for hjelp, og en liste \"juksekoder\" for bruk uten å ha instalert,"
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
-msgstr "oddíl /home (hda1, sda2, etc): "
+msgstr "/home partisjon (hda1, sda2, o.l.): "
 
 #: cli-installer:72
 msgid "$hdrv invalid. Retry:"
-msgstr "$hdrv je neplatné. Zkuste znovu:"
+msgstr "$hdrv ugyldig. Prøv på ny:"
 
 #: cli-installer:82
 msgid "Root partition (hda1, sda2, etc): "
-msgstr "Odííl root (hda1, sda2, etc): "
+msgstr "Rotpartisjon (hda1, sda2, o.l.): "
 
 #: cli-installer:111
 msgid "$rdrv invalid. Retry"
-msgstr "$rdrv je neplatné. Zkuste znovu"
+msgstr "$rdrv ugyldig. Prøv på ny:"
 
 #: cli-installer:126
 msgid "Available file systems for $1 are:"
-msgstr "Dostupné souborové systémy pro $1 jsou"
+msgstr "Tilgjengelige filsystemer for $1 er:"
 
 #: cli-installer:139
 msgid "Enter your choice 1-7: "
-msgstr ""
+msgstr "Velg filsystemtype 1-7: "
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
@@ -108,47 +105,47 @@ msgstr ""
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
-msgstr "Ignorovat všechny 'barierové' řádky"
+msgstr "Ignorer skillelinjer"
 
 #: cli-installer:157
 msgid "$fs invalid. Retry:"
-msgstr "$fs je neplatné. Zkuste znovu:"
+msgstr "$fs ugyldig. Prøv på ny:"
 
 #: cli-installer:170
 msgid "Passwords are not identical. Retry:"
-msgstr "Hesla se neshodují. Zkuste znovu:"
+msgstr "Passordene er ikke identiske. Prøv på nytt:"
 
 #: cli-installer:190
 msgid "Invalid; retry:"
-msgstr "Neplatné; Zkuste znovu:"
+msgstr "ugyldig. Prøv på ny:"
 
 #: cli-installer:207
 msgid "Press Enter to exit this script."
-msgstr "Stiskněte Enter pro ukončení skriptu."
+msgstr "Trykk enter for å avslutte dette skriptet."
 
 #: cli-installer:215
 msgid "Please run this script as root."
-msgstr "Tento skript spusťte, prosím, jako root."
+msgstr "Venligst kjør dette skriptet som administrator."
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Chcete disk znovu rozdělit disk (y/N)"
+msgstr "Vil du ompartisjonere harddisken (y/N)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
-msgstr ""
+msgstr "Sletter inholdet av partisjon $rdrv."
 
 #: cli-installer:245
 msgid "This may take some time. Please wait...."
-msgstr "Toto může chváli trvat. Čekejte prosím..."
+msgstr "Dette kan ta litt tid. Venligst vent...."
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Použít oddělený oddíl '/home'? (y/N)"
+msgstr "Bruk separat '/home' partisjon (y/N)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "je $hdrv nový oddíl '/home'? (y/N)"
+msgstr "Er $hdrv en ny '/home' partisjon (y/N)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
@@ -156,11 +153,11 @@ msgstr ""
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
-msgstr ""
+msgstr "MX-14 vil nå bli kopiert til $hdrv."
 
 #: cli-installer:304
 msgid "File copy done"
-msgstr "Kopírování souboru dokončeno"
+msgstr "Filkopiering ferdig."
 
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
@@ -168,11 +165,11 @@ msgstr ""
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
-msgstr "GRUB nainstalován na ($grub)"
+msgstr "GRUB instalert på ($grub)"
 
 #: cli-installer:326
 msgid "Computer name (default is 'mx1')? "
-msgstr "Jméno počítače (výchozí je 'mx1')? "
+msgstr "Datamaskinnavn (standard er 'mx1')? "
 
 #: cli-installer:334
 msgid "Time to set up localisation"
@@ -232,15 +229,15 @@ msgstr ""
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Je toto upravená instalace (y/N)"
+msgstr "Er dette en remastret installasjon (y/N)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
-msgstr "Instalace $DISTRO dokončena!"
+msgstr "Instalasjon av $DISTRO ferdig!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr "Restartujte počítač bez CD pro spuštění počítače. ('reboot')"
+msgstr "Restart datamaskinen uten CD for å starte programmet. (\"reboot\")"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
@@ -252,15 +249,15 @@ msgstr ""
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Poznámka: $hdrv musí obsahovat složku s názvem '$name'."
+msgstr "Merk: $hdrv må inneholde en mappe kalt '$name'."
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
-msgstr "Heslo pro $name:"
+msgstr "Passord for $name:"
 
 #: cli-installer:407
 msgid "Type your Password for root:"
-msgstr "Heslo pro root:"
+msgstr "Passord for administrator:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
@@ -268,4 +265,4 @@ msgstr ""
 
 #: cli-installer:426
 msgid "Cleaning up"
-msgstr "Čištění"
+msgstr "Rydder opp"

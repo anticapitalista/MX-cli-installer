@@ -1,106 +1,102 @@
-#
+# 
 # Translators:
 # anticapitalista <antiX@operamail.com>, 2014
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-11-14 17:46+0200\n"
+"PO-Revision-Date: 2014-03-15 12:10+0000\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/antix-development/"
-"language/fr/)\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/antix-development/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
 msgid "CL installer for $DISTRO"
-msgstr "CL installateur pour $DISTRO "
+msgstr "Cl Installer per $DISTRO"
 
 #: cli-installer:30
 msgid "Version 2.9.2 2014/02/27"
-msgstr "Version 2.9.2 2014/02/27"
+msgstr "Versione 2.9.2 2014/02/27"
 
 #: cli-installer:37
 msgid "Requirements for minimum installation:"
-msgstr "Exigences pour l'installation minimale:"
+msgstr "Requisiti minimi per l'installazione:"
 
 #: cli-installer:40
 msgid "MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
-msgstr "MX-14-Xfce: disque dur 3.5GB RAM 192Mo"
+msgstr "MX-14-Xfce: hard-disk 3.5 GB, RAM 192 MB"
 
 #: cli-installer:45
 msgid "Usage: cli-installer [drive]"
-msgstr "Utilisation: cli-installateur [lecteur]"
+msgstr "Uso: cli-installer [drive]"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr "Où lecteur est le nom du disque où $DISTRO doit être installé."
+msgstr "Dove drive è il nome del hard disk o altra memoria di massa dove verrà installato $DISTRO."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
-msgstr "   Pour exemple: cli-installateur sdb"
+msgstr "   Per esempio: cli-installer sdb"
 
 #: cli-installer:48
 msgid "The default is correct if the computer has only one drive."
-msgstr "La valeur par défaut est correct si l'ordinateur a un seul disque."
+msgstr "L'impostazione predefinita è corretta se il computer dispone di un solo hard disk."
 
 #: cli-installer:52
 msgid "Pre-installation tips:"
-msgstr "Conseils pour la Pré-installation:"
+msgstr "Consigli pre-installazione:"
 
 #: cli-installer:55
 msgid "Set language at the boot screen by pressing F2"
-msgstr "Choisir la langue à l'écran de démarrage en appuyant sur F2"
+msgstr "Imposta la lingua premendo F2 alla schermata di avvio"
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "ou en ajoutant la ligne lang = xx où xx est votre code de langue."
+msgstr "o aggiungendo la riga lang=xx dove xx è il codice della lingua."
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
-msgstr "par exemple lang=fr pour le français."
+msgstr "ad esempio, lang=it per l'italiano."
 
 #: cli-installer:59
 msgid "Set timezone at the boot screen by pressing F3"
-msgstr "Régler le fuseau horaire à l'écran de démarrage en appuyant sur F3"
+msgstr "imposta il fuso orario nella schermata di avvio premendo il tasto F3"
 
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
-msgstr ""
-"Appuyez sur F1 à l'écran de démarrage pour l'aide et la liste des codes de "
-"démarrage pour une utilisation live."
+msgstr "Premi F1 nella schermata di avvio per la Guida e un elenco di codici per la sessione live."
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
-msgstr "Partition /home  (hda1, sda2, etc): "
+msgstr "/home partizione (hda1, sda2, etc): "
 
 #: cli-installer:72
 msgid "$hdrv invalid. Retry:"
-msgstr "$hdrv invalide. :"
+msgstr "$hdrv non valido. Riprova:"
 
 #: cli-installer:82
 msgid "Root partition (hda1, sda2, etc): "
-msgstr "Partition racine (hda1, sda2, etc): "
+msgstr "Partizione root (hda1, sda2, ecc): "
 
 #: cli-installer:111
 msgid "$rdrv invalid. Retry"
-msgstr "$rdrv invalide. Réessayer"
+msgstr "$rdrv non valido. Riprova:"
 
 #: cli-installer:126
 msgid "Available file systems for $1 are:"
-msgstr "Les systèmes de fichiers disponibles pour  $1 sont:"
+msgstr "Filesystem disponibili per $1 sono:"
 
 #: cli-installer:139
 msgid "Enter your choice 1-7: "
-msgstr "Entrez votre choix 1-7:"
+msgstr "Inserisci la tua scelta 1-7: "
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
@@ -108,47 +104,47 @@ msgstr ""
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
-msgstr "Ignorez toutes les «barrière» des lignes"
+msgstr ""
 
 #: cli-installer:157
 msgid "$fs invalid. Retry:"
-msgstr "$fs invalide. Réessayer:"
+msgstr "$fs non valido. Riprova:"
 
 #: cli-installer:170
 msgid "Passwords are not identical. Retry:"
-msgstr "Les mots de passe ne sont pas identiques. Réessayer:"
+msgstr "Le password non sono identiche. Riprova:"
 
 #: cli-installer:190
 msgid "Invalid; retry:"
-msgstr "Invalide; réessayer:"
+msgstr "non valido. Riprova:"
 
 #: cli-installer:207
 msgid "Press Enter to exit this script."
-msgstr "Appuyez sur Entrée pour quitter ce script."
+msgstr "Premete Invio per uscire da questo script."
 
 #: cli-installer:215
 msgid "Please run this script as root."
-msgstr "S'il vous plaît exécuter ce script en tant que root."
+msgstr "Si prega di eseguire questo script come root."
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Voulez-vous repartitionner le disque (y/N)"
+msgstr "Vuoi ripartizionare il disco? (scegli y per si, N per no)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
-msgstr "Suppression du contenu des $rdrv de la partition."
+msgstr "Eliminazione del contenuto della partizione $rdrv."
 
 #: cli-installer:245
 msgid "This may take some time. Please wait...."
-msgstr "Cela peut prendre un certain temps. Respirez ...."
+msgstr "Questa operazione potrebbe richiedere del tempo. Si prega di attendere ...."
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Utilisez une partition séparée pour '/home' (y/N)"
+msgstr "Utilizzare una partizione '/home' separata? (y/N)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "$hdrv est-elle une nouvelle partition \\\"/ home\\\" (y/N)"
+msgstr "È $hdrv una partizione '/home' nuova? (y/N)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
@@ -156,11 +152,11 @@ msgstr ""
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
-msgstr "MX-14 va être maintenant copié sur $rdrv."
+msgstr "MX-14 verrà copiato in $rdrv"
 
 #: cli-installer:304
 msgid "File copy done"
-msgstr "La copie des fichiers est terminé"
+msgstr "Copia dei file eseguita."
 
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
@@ -168,11 +164,11 @@ msgstr ""
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
-msgstr "GRUB installé sur ($grub)"
+msgstr "GRUB installato su ($grub)"
 
 #: cli-installer:326
 msgid "Computer name (default is 'mx1')? "
-msgstr "Nom de l'ordinateur (par défaut 'mx1')?"
+msgstr "Nome del computer? (di default è 'mx1') "
 
 #: cli-installer:334
 msgid "Time to set up localisation"
@@ -232,16 +228,15 @@ msgstr ""
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Est-ce une installation remasterisé (y/N)"
+msgstr "Installazione è snapshot? (y/N)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
-msgstr "Installation de $DISTRO terminé!"
+msgstr "Installazione di $DISTRO completata!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr ""
-"Redémarrez l'ordinateur sans CD pour démarrer le programme. (\\\"Reboot\\\")"
+msgstr "Riavviare il computer ('reboot') senza il CD di avvio di Antix"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
@@ -253,15 +248,15 @@ msgstr ""
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Note: $hdrv doit contenir un dossier nommé '$name'."
+msgstr "Nota: $hdrv deve contenere una cartella chiamata '$name'."
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
-msgstr "Mot de passe pour $name:"
+msgstr "Password per $name:"
 
 #: cli-installer:407
 msgid "Type your Password for root:"
-msgstr "Mot de passe pour root:"
+msgstr "Password di root:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
@@ -269,4 +264,4 @@ msgstr ""
 
 #: cli-installer:426
 msgid "Cleaning up"
-msgstr "Nettoyage"
+msgstr "Fase di pulizia"

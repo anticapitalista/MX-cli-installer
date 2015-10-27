@@ -1,3 +1,11 @@
+mx-cli-installer (0.1.6) unstable; urgency=low 
+ 
+  * Include rc.local.install
+  * Renamed to mx-cli-installer
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 08 Oct 2015 20:11:00 +0200
+
+
 cli-installer-mx (0.1.5) unstable; urgency=low 
  
   * Added Japanese translation.

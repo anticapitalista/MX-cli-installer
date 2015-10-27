@@ -1,4 +1,4 @@
-Source: cli-installer-mx
+Source: mx-cli-installer
 Section: system
 Priority: optional
 Maintainer: anticapitalista <antiX@operamail.com>
@@ -6,7 +6,9 @@ Build-Depends: debhelper (>= 9.20120115)
 Standards-Version: 3.9.4
 Homepage: http://antix.mepis.org
 
-Package: cli-installer-mx
+Package: mx-cli-installer
 Architecture: all 
 Depends: bash, rsync, squashfs-tools, genisoimage  
-Description: Script to install MX-14 to hard drive.
+Conflicts: cli-installer-mx 
+Replaces: cli-installer-mx 
+Description: Script to install MX-15 to hard drive.

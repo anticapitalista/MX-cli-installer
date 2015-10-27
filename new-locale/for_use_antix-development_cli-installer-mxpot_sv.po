@@ -1,277 +1,272 @@
 #
 # Translators:
-# Eadwine Rose, 2014
-# ko <ko.bros@gmail.com>, 2014
+# Henry Oquist <henryoquist@comhem.se>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-11-14 17:49+0200\n"
+"PO-Revision-Date: 2014-06-14 11:55+0200\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/antix-development/"
-"language/nl/)\n"
+"Language-Team: Swedish (http://www.transifex.com/projects/p/antix-"
+"development/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
 msgid "CL installer for $DISTRO"
-msgstr "CL installeerder voor $DISTRO"
+msgstr "CL-installerare för $DISTRO"
 
 #: cli-installer:30
 msgid "Version 2.9.2 2014/02/27"
-msgstr "Versie 2.9.2 2014/02/27"
+msgstr "Version 2.9.2 2014/02/27"
 
 #: cli-installer:37
 msgid "Requirements for minimum installation:"
-msgstr "Vereisten voor minimum installatie:"
+msgstr "Krav för minimum installation:"
 
 #: cli-installer:40
 msgid "MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
-msgstr "MX-14-Xfce: harde schijf 3.5GB RAM 192MB"
+msgstr "MX-14-Xfce: hårddisk 3.5GB RAM 192MB"
 
 #: cli-installer:45
 msgid "Usage: cli-installer [drive]"
-msgstr "Gebruik: cli-installer [drive]"
+msgstr "Användning: cli-installerare  [disk]"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr ""
-"Waar 'drive' de naam is voor de schijf waarop $DISTRO moet worden "
-"geïnstalleerd."
+msgstr "Där disk är namnet på den disk $DISTRO ska installeras på."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
-msgstr "Bijvoorbeeld: cli-installer sdb"
+msgstr "   Exempel: cli-installer sdb"
 
 #: cli-installer:48
 msgid "The default is correct if the computer has only one drive."
-msgstr ""
-"De standaard-optie is correct indien uw computer slechts over één harde "
-"schijf beschikt."
+msgstr "Standardinställningen är korrekt om datorn bara har en hårddisk."
 
 #: cli-installer:52
 msgid "Pre-installation tips:"
-msgstr "Pre-installatie tips:"
+msgstr "Förinstallations-tips:"
 
 #: cli-installer:55
 msgid "Set language at the boot screen by pressing F2"
-msgstr "Kies uw taal in het opstartscherm met de toets F2"
+msgstr "Välj språk vid startskärmen genom att trycka på F2"
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "of door de tekst lang=xx toe te voegen. Xx is dan uw taalafkorting."
+msgstr "eller genom att lägga till raden lang=xx där xx är din språkkod."
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
-msgstr "bijv. lang=gr voor Grieks."
+msgstr "ex: lang=gr för grekiska."
 
 #: cli-installer:59
 msgid "Set timezone at the boot screen by pressing F3"
-msgstr "Stel met F3 uw tijdszone in bij het opstartscherm"
+msgstr "Välj tidszon vid startskärmen genom att trycka på F3"
 
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
 msgstr ""
-"Druk voor Hulp of een lijst met cheatcodes voor live-gebruik de toets F1 in "
-"bij het opstartscherm."
+"Tryck på F1 vid startskärmen för hjälp och lista över cheatcodes för live "
+"användning."
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
-msgstr "/home partitie (hda1, sda2, etc): "
+msgstr "/home partition (hda1, sda2, etc): "
 
 #: cli-installer:72
 msgid "$hdrv invalid. Retry:"
-msgstr "$hdrv ongeldig. Opnieuw proberen:"
+msgstr "$hdrv ogiltig. Försök igen:"
 
 #: cli-installer:82
 msgid "Root partition (hda1, sda2, etc): "
-msgstr "Root partitie (hda1, sda2, etc): "
+msgstr "Root partition (hda1, sda2, etc): "
 
 #: cli-installer:111
 msgid "$rdrv invalid. Retry"
-msgstr "$rdrv ongeldig. Opnieuw proberen"
+msgstr "$rdrv ogiltig. Försök igen:"
 
 #: cli-installer:126
 msgid "Available file systems for $1 are:"
-msgstr "Beschikbare bestandssystemen voor $1 zijn:"
+msgstr "Tillgängliga filsystem för $1 är:"
 
 #: cli-installer:139
 msgid "Enter your choice 1-7: "
-msgstr "Voer uw keuze in 1-7:"
+msgstr "Skriv in ditt val 1-7:"
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
-msgstr "U heeft gekozen $fs voor $1"
+msgstr "Du har valt $fs för $1"
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
-msgstr "Niet op eventuele 'overschrijdingsstrepen' letten"
+msgstr "Ignorera `gräns´ -linjer"
 
 #: cli-installer:157
 msgid "$fs invalid. Retry:"
-msgstr "$fs ongeldig. Opnieuw proberen:"
+msgstr "$fs ogiltig. Försök igen:"
 
 #: cli-installer:170
 msgid "Passwords are not identical. Retry:"
-msgstr "De wachtwoorden komen niet overeen. Opnieuw proberen:"
+msgstr "Lösenorden är inte identiska. Försök igen:"
 
 #: cli-installer:190
 msgid "Invalid; retry:"
-msgstr "Ongeldig; opnieuw proberen:"
+msgstr "Ogiltig; försök igen:"
 
 #: cli-installer:207
 msgid "Press Enter to exit this script."
-msgstr "Druk Enter in om dit script te beëindigen."
+msgstr "Tryck på Enter för att avsluta detta skript."
 
 #: cli-installer:215
 msgid "Please run this script as root."
-msgstr "Voer dit script a.u.b. als root uit."
+msgstr "Var vänlig kör detta skript som root."
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Wilt u de schijf opnieuw partitioneren (y/N)"
+msgstr "Vill du ompartitionera hårddisken (y/N)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
-msgstr "De inhoud van de $rdrv partitie verwijderen."
+msgstr "Tar bort innehållet på $rdrv partitionen."
 
 #: cli-installer:245
 msgid "This may take some time. Please wait...."
-msgstr "Dit kan enige tijd duren. Even geduld a.u.b. ..."
+msgstr "Det här kan ta en stund. Var vänlig vänta...."
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Afzonderlijke '/home' partitie gebruiken (y/N)"
+msgstr "Använd separat '/home' partition (y/N)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "Is $hdrv een nieuwe '/home' partitie (y/N)"
+msgstr "Är $hdrv en ny '/home' partition (y/N)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
-msgstr "Stel bestandssysteem in voor $hdrv (y/N)"
+msgstr "Bestäm filsystem för $hdrv (y/N)"
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
-msgstr "MX-14 zal nu gekopieerd worden naar $rdrv."
+msgstr "MX-14 kommer nu att kopieras till $rdrv."
 
 #: cli-installer:304
 msgid "File copy done"
-msgstr "Bestand kopiëren voltooid"
+msgstr "Filerna är kopierade"
 
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
 msgstr ""
-"Installeer GRUB op MBR (Y/n). Antwoord n leidt tot op de root partitie "
-"installeren"
+"Installera  GRUB på MBR (Y/n). \"No\" kommer att installera på root "
+"partitionen"
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
-msgstr "GRUB geinstalleerd op ($grub)"
+msgstr "GRUB installerad på ($grub)"
 
 #: cli-installer:326
 msgid "Computer name (default is 'mx1')? "
-msgstr "Computernaam (standaard is 'mx1')?"
+msgstr "Datornamn (standard är 'mx1')?"
 
 #: cli-installer:334
 msgid "Time to set up localisation"
-msgstr "Tijd om localisatie in te stellen"
+msgstr "Dags att välja region"
 
 #: cli-installer:335
 msgid "System locale is set to ..."
-msgstr "Systeemlocalisatie is ingesteld op ..."
+msgstr "System-region är inställd på..."
 
 #: cli-installer:336
 msgid "Do you want to set up system localisation (y/N)"
-msgstr "Wilt u systeemlocalisatie instellen (y/N)"
+msgstr "Vill du ställa in system-region (y/N)"
 
 #: cli-installer:343
 msgid "Time to set keyboard layout"
-msgstr "Tijd om keyboard layout in te stellen"
+msgstr "Dags att ställa in tangentbordslayout"
 
 #: cli-installer:344
 msgid "System keyboard is set to ..."
-msgstr "Systeemtoetsenbord is ingesteld op ..."
+msgstr "System-tangentbord är inställd på..."
 
 #: cli-installer:346
 msgid "Do you want to set up keyboard (y/N)"
-msgstr "Wilt u het toetsenbord instellen (y/N)"
+msgstr "Vill du ställa in tangentbordet (y/N)"
 
 #: cli-installer:352
 msgid "Time to set console layout"
-msgstr "Tijd om console layout in te stellen"
+msgstr "Dags att ställa in kommandofönster-layout"
 
 #: cli-installer:353
 msgid "System console is set to ..."
-msgstr "Systeem console is ingesteld op ..."
+msgstr "Kommandofönstret är inställt på..."
 
 #: cli-installer:355
 msgid "Do you want to set up console layout (y/N)"
-msgstr "Wilt u de console layout instellen (y/N)"
+msgstr "Vill du ställa in kommandofönster-layout (y/N)"
 
 #: cli-installer:361
 msgid "Time to set timezone"
-msgstr "Tijd om de tijdzone in te stellen"
+msgstr "Dags att ställa in tidszon"
 
 #: cli-installer:362
 msgid "System timezone is set to ..."
-msgstr "Systeem tijdzone is ingesteld op ..."
+msgstr "System-tidszonen är inställd på..."
 
 #: cli-installer:364
 msgid "Do you want to set up system timezone (y/N)"
-msgstr "Wilt u uw systeem tijdzone instellen (y/N)"
+msgstr "Vill du ställa in system-tidszonen (y/N)"
 
 #: cli-installer:370
 msgid "Choose which services to run"
-msgstr "Kies welke diensten moeten starten"
+msgstr "Välj vilka tjänster som ska köras"
 
 #: cli-installer:371
 msgid "Do you want to enable/disable startup services (y/N)"
-msgstr "Wilt u opstartdiensten activeren/deactiveren (y/N)"
+msgstr "Vill du möjliggöra/stoppa uppstart av tjänster (y/N)"
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Is dit een geremasterde/snapshot installatie (y/N)"
+msgstr "Är detta en remastered/snapshot installering (y/N)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
-msgstr "Installatie van $DISTRO beëindigd!"
+msgstr "Installering av $DISTRO slutförd!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr "Herstart de computer zonder CD om het programma te starten.('reboot')"
+msgstr "Starta om datorn utan CD för att för att starta programmet. ('reboot')"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
-msgstr "Instellen van gebruikers- en root/admin accounts"
+msgstr "Upprättar användar och root/administratör konton"
 
 #: cli-installer:396
 msgid "Type in your default user name? "
-msgstr "Type uw standaard gebruikersnaam in?"
+msgstr "Skriv in ditt standard användarnamn?"
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Let op: $hdrv dient een folder genaamd '$name' te bevatten."
+msgstr "Anmärkning: $hdrv måste innehålla en mapp kallad '$name'."
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
-msgstr "Type uw Wachtwoord voor $name:"
+msgstr "Skriv ditt Lösenord för $name:"
 
 #: cli-installer:407
 msgid "Type your Password for root:"
-msgstr "Type uw Wachtwoord voor root:"
+msgstr "Skriv ditt Lösenord för root:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
-msgstr "Stel autologin in voor $name: (y/N)"
+msgstr "Välj autologin för $name: (y/N)"
 
 #: cli-installer:426
 msgid "Cleaning up"
-msgstr "Opruimen"
+msgstr "Rensar"

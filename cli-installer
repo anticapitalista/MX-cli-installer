@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# cli-installer for MX-14
+# cli-installer for MX-15
 # written by Burt Holland
 # heavily edited by anticapitalista
 
@@ -7,7 +7,7 @@ TEXTDOMAINDIR=/usr/share/locale
 TEXTDOMAIN=cli-installer
 
 #Default
-DISTR0=MX-14
+DISTR0=MX-15
 LIVEUSER=demo
 
 ##functions
@@ -27,7 +27,7 @@ LIVEUSER=demo
 title() {
 echo -ne "\e[32m"
 echo $"CL installer for $DISTRO"
-echo $"Version 2.9.2 2014/02/27"
+echo $"Version 2.9.3 2015/10/27"
 echo -ne "\e[0m"
 echo ''
 }
@@ -37,7 +37,7 @@ echo -ne "\e[36m"
 echo $"Requirements for minimum installation:"
 echo -ne "\e[0m"
 echo ''
-echo $"MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
+echo $"MX-15-Xfce: hard-disk 5.0GB  RAM 512MB"
 echo ''
 }
 
@@ -278,7 +278,7 @@ getfs
 #We are now in $rdrv
 cd /media/$rdrv
 echo ''
-echo $"MX-14 will now be copied to $rdrv."
+echo $"MX-15 will now be copied to $rdrv."
 echo $"This may take some time. Please wait...."
 cp -a /live/aufs/* .
 

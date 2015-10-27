@@ -1,272 +1,267 @@
-#
+# 
 # Translators:
-# Henry Oquist <henryoquist@comhem.se>, 2014
+# anticapitalista <antiX@operamail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: antix-development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 16:06+0300\n"
-"PO-Revision-Date: 2014-11-14 17:51+0200\n"
+"PO-Revision-Date: 2014-03-15 12:00+0000\n"
 "Last-Translator: anticapitalista <antiX@operamail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/antix-"
-"development/language/sv/)\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/antix-development/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Launchpad-Export-Date: 2012-04-23 18:52+0000\n"
 
 #: cli-installer:29
 msgid "CL installer for $DISTRO"
-msgstr "CL-installerare för $DISTRO"
+msgstr "Program de instalare CL pentru $DISTRO"
 
 #: cli-installer:30
 msgid "Version 2.9.2 2014/02/27"
-msgstr "Version 2.9.2 2014/02/27"
+msgstr "Versiunea 2.9.2 2014/02/27"
 
 #: cli-installer:37
 msgid "Requirements for minimum installation:"
-msgstr "Krav för minimum installation:"
+msgstr "Cerințe minime pentru instalare:"
 
 #: cli-installer:40
 msgid "MX-14-Xfce: hard-disk 3.5GB  RAM 192MB"
-msgstr "MX-14-Xfce: hårddisk 3.5GB RAM 192MB"
+msgstr "MX-14-Xfce: hard disc 3.5GB. 192MB RAM"
 
 #: cli-installer:45
 msgid "Usage: cli-installer [drive]"
-msgstr "Användning: cli-installerare  [disk]"
+msgstr "Folosire: cli-installer [drive]"
 
 #: cli-installer:46
 msgid "Where drive is the name of the drive $DISTRO is to be installed on."
-msgstr "Där disk är namnet på den disk $DISTRO ska installeras på."
+msgstr "Unde „drive” este numele unității unde va fi instalat $DISTRO."
 
 #: cli-installer:47
 msgid "   For example: cli-installer sdb"
-msgstr "   Exempel: cli-installer sdb"
+msgstr "   De exemplu: cli-installer sdb"
 
 #: cli-installer:48
 msgid "The default is correct if the computer has only one drive."
-msgstr "Standardinställningen är korrekt om datorn bara har en hårddisk."
+msgstr "Opțiunea implicită este corectă dacă calculatorul are o singură unitate."
 
 #: cli-installer:52
 msgid "Pre-installation tips:"
-msgstr "Förinstallations-tips:"
+msgstr "Sfaturi înaintea instalării:"
 
 #: cli-installer:55
 msgid "Set language at the boot screen by pressing F2"
-msgstr "Välj språk vid startskärmen genom att trycka på F2"
+msgstr "Setați limba la ecranul de pornire apăsând F2"
 
 #: cli-installer:56
 msgid "or by adding the line lang=xx where xx is your language code."
-msgstr "eller genom att lägga till raden lang=xx där xx är din språkkod."
+msgstr "sau adăugând linia de cod lang=xx unde xx este limba dumneavoastră."
 
 #: cli-installer:57
 msgid "eg lang=gr for Greek."
-msgstr "ex: lang=gr för grekiska."
+msgstr "Exemplu: lang=ro pentru Română."
 
 #: cli-installer:59
 msgid "Set timezone at the boot screen by pressing F3"
-msgstr "Välj tidszon vid startskärmen genom att trycka på F3"
+msgstr "Setați fusul orar la ecranul de pornire apăsând F3"
 
 #: cli-installer:62
 msgid ""
 "Press F1 at the boot screen for Help and list of cheatcodes for live use."
-msgstr ""
-"Tryck på F1 vid startskärmen för hjälp och lista över cheatcodes för live "
-"användning."
+msgstr "Apăsați F1 la ecranul de pornire pentru Ajutor și o listă cu posibile coduri pentru livecd."
 
 #: cli-installer:69
 msgid "/home partition (hda1, sda2, etc): "
-msgstr "/home partition (hda1, sda2, etc): "
+msgstr "/home partiție (hda1, sda2, etc): "
 
 #: cli-installer:72
 msgid "$hdrv invalid. Retry:"
-msgstr "$hdrv ogiltig. Försök igen:"
+msgstr "$hdrv invalid. Reîncercați:"
 
 #: cli-installer:82
 msgid "Root partition (hda1, sda2, etc): "
-msgstr "Root partition (hda1, sda2, etc): "
+msgstr "Partiția root (hda1, sda2,etc): "
 
 #: cli-installer:111
 msgid "$rdrv invalid. Retry"
-msgstr "$rdrv ogiltig. Försök igen:"
+msgstr "$rdrv invalid. Reîncercați:"
 
 #: cli-installer:126
 msgid "Available file systems for $1 are:"
-msgstr "Tillgängliga filsystem för $1 är:"
+msgstr "Sistemele de fișiere disponibile pentru $1 sunt:"
 
 #: cli-installer:139
 msgid "Enter your choice 1-7: "
-msgstr "Skriv in ditt val 1-7:"
+msgstr "Introduceți alegerea dumneavoastră 1-7: "
 
 #: cli-installer:144
 msgid "You have chosen $fs for $1"
-msgstr "Du har valt $fs för $1"
+msgstr ""
 
 #: cli-installer:156
 msgid "Ignore any 'barrier' lines"
-msgstr "Ignorera `gräns´ -linjer"
+msgstr "Ignoră orice linii 'barrier'"
 
 #: cli-installer:157
 msgid "$fs invalid. Retry:"
-msgstr "$fs ogiltig. Försök igen:"
+msgstr "$fs invalid. Reîncercați:"
 
 #: cli-installer:170
 msgid "Passwords are not identical. Retry:"
-msgstr "Lösenorden är inte identiska. Försök igen:"
+msgstr "Parolele nu coincid. Reincercați:"
 
 #: cli-installer:190
 msgid "Invalid; retry:"
-msgstr "Ogiltig; försök igen:"
+msgstr "invalid. Reîncercați:"
 
 #: cli-installer:207
 msgid "Press Enter to exit this script."
-msgstr "Tryck på Enter för att avsluta detta skript."
+msgstr "Apăsați „Enter” pentru a ieși din acest script."
 
 #: cli-installer:215
 msgid "Please run this script as root."
-msgstr "Var vänlig kör detta skript som root."
+msgstr "Acest script trebuie rulat ca administrator."
 
 #: cli-installer:231
 msgid "Do you want to repartition the disk (y/N)"
-msgstr "Vill du ompartitionera hårddisken (y/N)"
+msgstr "Doriți să repartiționați discul? (y/N)"
 
 #: cli-installer:244
 msgid "Deleting the contents of the $rdrv partition."
-msgstr "Tar bort innehållet på $rdrv partitionen."
+msgstr "Șterg conținutul partiției $rdrv."
 
 #: cli-installer:245
 msgid "This may take some time. Please wait...."
-msgstr "Det här kan ta en stund. Var vänlig vänta...."
+msgstr "Operațiunea va dura ceva timp. Vă rugăm asteptați...."
 
 #: cli-installer:251
 msgid "Use separate '/home' partition (y/N)"
-msgstr "Använd separat '/home' partition (y/N)"
+msgstr "Folosesc o partiție separată pentru „/home”? (y/N)"
 
 #: cli-installer:258
 msgid "Is $hdrv a new '/home' partition (y/N)"
-msgstr "Är $hdrv en ny '/home' partition (y/N)"
+msgstr "Este $hdrv noua partiție „/home”? (y/N)"
 
 #: cli-installer:263
 msgid "Set file system for $hdrv  (y/N)"
-msgstr "Bestäm filsystem för $hdrv (y/N)"
+msgstr ""
 
 #: cli-installer:281
 msgid "MX-14 will now be copied to $rdrv."
-msgstr "MX-14 kommer nu att kopieras till $rdrv."
+msgstr "MX-14 va fi copiat către $rdrv."
 
 #: cli-installer:304
 msgid "File copy done"
-msgstr "Filerna är kopierade"
+msgstr "Copierea fișierului a fost efectuată"
 
 #: cli-installer:306
 msgid "Install GRUB on MBR (Y/n). No will install to root partition"
 msgstr ""
-"Installera  GRUB på MBR (Y/n). \"No\" kommer att installera på root "
-"partitionen"
 
 #: cli-installer:322
 msgid "GRUB installed on ($grub)"
-msgstr "GRUB installerad på ($grub)"
+msgstr "GRUB a fost instalat pe ($grub)"
 
 #: cli-installer:326
 msgid "Computer name (default is 'mx1')? "
-msgstr "Datornamn (standard är 'mx1')?"
+msgstr "Numele calculatorului (implicit: „mx1”)? "
 
 #: cli-installer:334
 msgid "Time to set up localisation"
-msgstr "Dags att välja region"
+msgstr ""
 
 #: cli-installer:335
 msgid "System locale is set to ..."
-msgstr "System-region är inställd på..."
+msgstr ""
 
 #: cli-installer:336
 msgid "Do you want to set up system localisation (y/N)"
-msgstr "Vill du ställa in system-region (y/N)"
+msgstr ""
 
 #: cli-installer:343
 msgid "Time to set keyboard layout"
-msgstr "Dags att ställa in tangentbordslayout"
+msgstr ""
 
 #: cli-installer:344
 msgid "System keyboard is set to ..."
-msgstr "System-tangentbord är inställd på..."
+msgstr ""
 
 #: cli-installer:346
 msgid "Do you want to set up keyboard (y/N)"
-msgstr "Vill du ställa in tangentbordet (y/N)"
+msgstr ""
 
 #: cli-installer:352
 msgid "Time to set console layout"
-msgstr "Dags att ställa in kommandofönster-layout"
+msgstr ""
 
 #: cli-installer:353
 msgid "System console is set to ..."
-msgstr "Kommandofönstret är inställt på..."
+msgstr ""
 
 #: cli-installer:355
 msgid "Do you want to set up console layout (y/N)"
-msgstr "Vill du ställa in kommandofönster-layout (y/N)"
+msgstr ""
 
 #: cli-installer:361
 msgid "Time to set timezone"
-msgstr "Dags att ställa in tidszon"
+msgstr ""
 
 #: cli-installer:362
 msgid "System timezone is set to ..."
-msgstr "System-tidszonen är inställd på..."
+msgstr ""
 
 #: cli-installer:364
 msgid "Do you want to set up system timezone (y/N)"
-msgstr "Vill du ställa in system-tidszonen (y/N)"
+msgstr ""
 
 #: cli-installer:370
 msgid "Choose which services to run"
-msgstr "Välj vilka tjänster som ska köras"
+msgstr ""
 
 #: cli-installer:371
 msgid "Do you want to enable/disable startup services (y/N)"
-msgstr "Vill du möjliggöra/stoppa uppstart av tjänster (y/N)"
+msgstr ""
 
 #: cli-installer:378
 msgid "Is this a remastered/snapshot install (y/N)"
-msgstr "Är detta en remastered/snapshot installering (y/N)"
+msgstr "Este instalarea snapshot? (y/N)"
 
 #: cli-installer:386
 msgid "Installation of $DISTRO finished!"
-msgstr "Installering av $DISTRO slutförd!"
+msgstr "Instalarea lui $DISTRO a fost finalizată!"
 
 #: cli-installer:388
 msgid "Reboot computer without CD to start program. ('reboot')"
-msgstr "Starta om datorn utan CD för att för att starta programmet. ('reboot')"
+msgstr "Reporniți calculatorul fără CD pentru a porni programul. („reboot”)"
 
 #: cli-installer:392
 msgid "Setting up user and root/admin accounts"
-msgstr "Upprättar användar och root/administratör konton"
+msgstr ""
 
 #: cli-installer:396
 msgid "Type in your default user name? "
-msgstr "Skriv in ditt standard användarnamn?"
+msgstr ""
 
 #: cli-installer:400
 msgid "Note: $hdrv must contain a folder named '$name'."
-msgstr "Anmärkning: $hdrv måste innehålla en mapp kallad '$name'."
+msgstr "Notă: $hdrv trebuie să conțină un dosar numit „$name”."
 
 #: cli-installer:404
 msgid "Type your Password for $name:"
-msgstr "Skriv ditt Lösenord för $name:"
+msgstr "Parolă pentru $name:"
 
 #: cli-installer:407
 msgid "Type your Password for root:"
-msgstr "Skriv ditt Lösenord för root:"
+msgstr "Parolă pentru administrator:"
 
 #: cli-installer:418
 msgid "Set autologin for $name: (y/N)"
-msgstr "Välj autologin för $name: (y/N)"
+msgstr ""
 
 #: cli-installer:426
 msgid "Cleaning up"
-msgstr "Rensar"
+msgstr "Se efectuează curățenia"
